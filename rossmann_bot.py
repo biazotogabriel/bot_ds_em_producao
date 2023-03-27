@@ -7,11 +7,12 @@ from flask import Flask, request, Response
 TOKEN = '6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk'
 
 # info about the bot
-update_bot_url = 'https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/getUpdates'
+#update_bot_url = 'https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/getUpdates'
 #setwebhook
-webhook_bot_url = 'https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/setWebhook?url=https://72b5789292f935.lhr.life/' #using localhost.run
+#webhook_bot_local_url = 'https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/setWebhook?url=https://72b5789292f935.lhr.life/' #using localhost.run
+#webhook_bot_deployed_url = https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/setWebhook?url=https://bot-ds-em-producao-deploy.onrender.com/
 # info about the bot
-info_bot_url = 'https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/getMe'
+#info_bot_url = 'https://api.telegram.org/bot6286526193:AAETd6pMQKyrpRlEJV9Sjn6VYDuR3dLStdk/getMe'
 
 def parse_message(message):
     chat_id = message['message']['chat']['id']
